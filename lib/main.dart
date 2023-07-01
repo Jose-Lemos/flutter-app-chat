@@ -2,6 +2,7 @@ import 'package:app_demo/chat_page.dart';
 import 'package:app_demo/image_page.dart';
 import 'package:app_demo/my_home_page.dart';
 import 'package:flutter/material.dart';
+import 'package:app_demo/select_image.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,6 +20,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => const MyHomePage(),
         '/chat': (context) => const ChatPage(),
         '/image': (context) => const ImagePage(),
+        '/select-image': (context) => const ImagePickerScreen(),
       },
       initialRoute: '/',
     );

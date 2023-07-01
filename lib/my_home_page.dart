@@ -15,7 +15,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     void goToImagePage() {
-      Navigator.pushNamed(context, '/image');
+      Navigator.pushNamed(context, '/select-image');
     }
 
     getTextResponsesCount().then((value) {
