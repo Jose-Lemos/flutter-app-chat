@@ -32,7 +32,7 @@ class _ImagePickerScreenState extends State<ImagePickerScreen> {
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                const Text("Canal de Image",
+                const Text("Canal de Imagen",
                     style: TextStyle(
                         color: Color.fromRGBO(32, 35, 37, 1),
                         fontSize: 14,
@@ -76,7 +76,7 @@ class _ImagePickerScreenState extends State<ImagePickerScreen> {
                     image = img;
                   });
                 },
-                label: const Text('Choose Image'),
+                label: const Text('Seleccionar Imagen'),
                 icon: const Icon(Icons.image),
               ),
               ElevatedButton.icon(
@@ -88,7 +88,7 @@ class _ImagePickerScreenState extends State<ImagePickerScreen> {
                     image = img;
                   });
                 },
-                label: const Text('Take Photo'),
+                label: const Text('Tomar Foto'),
                 icon: const Icon(Icons.camera_alt_outlined),
               ),
             ],
@@ -104,7 +104,7 @@ class _ImagePickerScreenState extends State<ImagePickerScreen> {
                         image = null;
                       });
                     },
-                    label: const Text('Remove Image'),
+                    label: const Text('Eliminar Imagen'),
                     icon: const Icon(Icons.close),
                   )
                 ],
